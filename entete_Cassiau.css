@@ -1,0 +1,243 @@
+/*==================================================
+--------------- Entête----------------------
+===============================================*/
+
+.navbar
+{
+background-color:rgba(153,1,0,1);
+   font-family: niconne;
+   
+}
+/*Comme on n'a pas de navbar-default ou inverse, il faut recréer les données du bouton de la barre menu lorsqu'elle est restreinte*/
+ .icon-bar
+{
+   background-color:rgb(153,1,0);
+}
+.navbar-toggle
+{
+    background-color:white;    
+    border-color:rgb(153,1,0);
+}
+/*--------------fin de la création du bouton----------------*/
+
+
+.navbar-nav
+{
+   margin-left:1%;
+}
+a
+{
+    color:white;
+}
+button
+{
+    color:white;
+}
+
+h3
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*===================================================================================================================
+                                Accueil
+=====================================================================================================================*/
+#accueil 
+{
+   background-image: url("images/image_parc2.jpg");
+    font-family: Lora;
+    text-align: center;
+    
+}
+/*----------Sections--------------------*/
+.jumbotron
+{
+    border-radius:20px;
+    background-color: rgba(210,225,232,0);
+    text-align:center;
+    color:rgb(153,1,0);
+    margin-top:200px;
+   
+}
+#description,#news
+{
+    border-radius:20px;
+    background-color:rgba(245,245,245,0.6);
+    padding-top:20px;
+    text-align: justify;   
+}
+section h4
+{
+    text-align: center;
+    color:rgb(153,1,0);
+    padding-bottom: 30px;
+    padding-top:30px;
+}
+/*-----------News separations--------*/
+.end
+{
+    border-bottom: 1px rgb(153,1,0) solid;
+}
+
+    
+/*============================================================================================================================================*/
+/*-----------Actualités-----------*/
+/*==========================================================================================================================================*/
+.actualites
+{
+   
+    font-family: Lora;
+     background-image: url("images/image_parc2.jpg");
+     text-align: center; 
+    color:black;
+}
+
+.actualites section
+{
+    margin-top: 200px;
+
+}
+.actualites section article
+{
+    background-color:aliceblue;
+    opacity:0.8;
+    padding:20px;
+    border-radius:20px;
+     margin-top:20px;
+}
+.actualites article h3
+{
+    
+    color:rgb(153,1,0);
+}
+/*=====================================================================================================================================*/
+/*----------------Plus d'info------*/
+/*====================================================================================================================================*/
+.info
+{
+    background-image: url('images/image_parc.jpg');
+    background-attachment: fixed;
+     margin-top:200px;
+}
+.info section
+{
+    margin:0;
+    margin-left:30px;
+    padding-top:50px;
+    padding:10px;
+    
+}
+.info article h3
+{
+    color: rgb(153,1,0);
+}
+.info section img
+{ 
+    height:150px;
+    
+    padding-left:10%;
+    padding:10px;
+}
+.info section article
+{
+    margin-top:30px;
+    padding:20px;
+  background-color: aliceblue; 
+   opacity:0.8;
+    border-radius:20px;
+}
+.info article .col-md-8
+{
+    height:300px;
+}
+/*========================================================================================================================================*/
+/*-----Activites------*/
+/*========================================================================================================================================*/
+.activites
+{
+   background-image: url("images/image_parc4.jpg") ;
+  background-attachment: fixed;
+   
+}
+.activites h1
+{
+    text-align: center;
+    color:rgb(157,1,0);
+    font-family: Niconne;
+}
+.activites table
+{
+   
+    background-color: rgba(253,253,253,0.7);
+    font-family: Lora;
+    min-width: 300px;
+    max-width:1000px;
+    width:100%;
+    margin:auto;
+    margin-top:200px;
+          
+}
+
+tr:hover
+{
+    color:rgb(157,1,0);
+  
+}
+
+.modal-content
+{
+    border-color:rgba(0,0,0,0);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+/*=================================================================================*/
+/*-------------Contact-----------------------------------------------
+=========================================================================*/
+
+.contact
+{
+    margin-top: 200px;
+    font-family: Lora;
+    text-align: left;
+    background-color: aliceblue;
+}
+.contact h1
+{
+    text-align:center;
+    font-family:Niconne;
+    color:rgb(157,1,0);
+    margin-bottom:30px;
+}
+.contact h3
+{
+     text-align:center;
+    margin-top:0;
+}
+#Titre
+{
+
+    
+    text-align: center;
+   
+   
+}
+.contact .panel
+{
+    background-color:rgb(157,1,0);
+  
+    font-family: Lora;
+     color:white;
+    border-radius:20px;
+   
+}
+#Titre, #nom, #naissance, #email, #nationalite,#message
+{
+    border-radius:20px;
+    text-align: justify;
+    height:50px; 
+}
+
+#message
+{
+   height:200px;
+}
