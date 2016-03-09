@@ -54,9 +54,9 @@
 
                          <form class="navbar-form navbar-right" role="search">
                              <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search">
+                                <input type="text" class="form-control" placeholder="Recherche">
                             </div>
-                            <button type="submit" class="btn btn-default">Submit</button>
+                            <button type="submit" class="btn btn-default">Valider</button>
                         </form>
 
                     </div><!-- /.navbar-collapse -->

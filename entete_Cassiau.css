@@ -244,3 +244,9 @@ tr:hover
 {
    height:200px;
 }
+#valider
+{
+    background-color: grey;
+    border-radius:20px;
+    padding:20px;
+}

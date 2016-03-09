@@ -27,7 +27,7 @@ include ( "entete_Cassiau.php");
     </head>
     
     <body class="contact">
-        <h1>N'hésitez pas à nous contacter</h1>
+        <h1 class="col-xs-12 col-sm-6 col-sm-offset-3">N'hésitez pas à nous contacter</h1>
         <div class="panel panel-default col-xs-10 col-xs-offset-1">        
         <div class="panel-body">
          <form class="form-horizontal col-xs-offset-1  col-xs-10 " role="form">
@@ -67,7 +67,7 @@ include ( "entete_Cassiau.php");
                  <label class="control-label col-sm-4 col-xs-12" for="message">Votre message</label>
                  <input type="text-area" id="message" class="control-label col-sm-6 col-xs-12" >
              </div>
-            
+             <input id="valider"type="button" value="Envoyer" class="col-xs-12 col-sm-6 col-sm-offset-4">
             
         </form>
             </div>
