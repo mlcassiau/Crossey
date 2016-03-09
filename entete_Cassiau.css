@@ -199,7 +199,7 @@ tr:hover
     margin-top: 200px;
     font-family: Lora;
     text-align: left;
-    background-color: aliceblue;
+    background-color: grey;
 }
 .contact h1
 {
@@ -228,6 +228,7 @@ tr:hover
     font-family: Lora;
      color:white;
     border-radius:20px;
+    font-size:1.2em;
    
 }
 #Titre, #nom, #naissance, #email, #nationalite,#message
@@ -235,6 +236,8 @@ tr:hover
     border-radius:20px;
     text-align: justify;
     height:50px; 
+    background-color: grey;
+   
 }
 
 #message
