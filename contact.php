@@ -1,8 +1,5 @@
-<?php
-include ( "entete_Cassiau.php");
-?>
 
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf8" >
@@ -25,6 +22,10 @@ include ( "entete_Cassiau.php");
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
+    <?php
+include ( "entete_Cassiau.php");
+?>
+
     
     <body class="contact">
         <h1 class="col-xs-12 col-sm-6 col-sm-offset-3">N'hésitez pas à nous contacter</h1>

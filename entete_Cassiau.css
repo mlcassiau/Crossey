@@ -1,20 +1,29 @@
+
 /*==================================================
 --------------- Entête----------------------
 ===============================================*/
 
+
+/* Entête
+-------------------------------------------*/
+
 .navbar
 {
 background-color:rgba(153,1,0,1);
-   font-family: niconne;
+   font-family: Niconne;
+    text-align: center;
    
 }
+
 /*Comme on n'a pas de navbar-default ou inverse, il faut recréer les données du bouton de la barre menu lorsqu'elle est restreinte*/
+
  .icon-bar
 {
    background-color:rgb(153,1,0);
 }
 .navbar-toggle
 {
+
     background-color:white;    
     border-color:rgb(153,1,0);
 }
@@ -28,17 +37,39 @@ background-color:rgba(153,1,0,1);
 a
 {
     color:white;
-}
-button
-{
-    color:white;
+      
+    border-color:rgb(153,1,0);
 }
 
-h3
+.navbar-brand img
+{
+   height:150px;
+    border-radius:60px;
+    
+ }
+.navbar-brand
+{
+    padding:15px;
+}
+
+a
+{
+    color:aliceblue;
+
+}
+
+.navbar-form
+{
+    margin-top:30px;
+}
+
+. navbar h3
 {
     text-align: center;
     padding-bottom: 20px;
 }
+
+
 
 /*===================================================================================================================
                                 Accueil
@@ -171,9 +202,9 @@ section h4
    
     background-color: rgba(253,253,253,0.7);
     font-family: Lora;
-    min-width: 300px;
-    max-width:1000px;
-    width:100%;
+    
+    max-width:800px;
+    
     margin:auto;
     margin-top:200px;
           
@@ -181,7 +212,7 @@ section h4
 
 tr:hover
 {
-    color:rgb(157,1,0);
+  color:rgb(157,1,0);
   
 }
 
@@ -191,6 +222,7 @@ tr:hover
     box-shadow: 0 0 0 rgba(0,0,0,0);
 }
 /*=================================================================================*/
+
 /*-------------Contact-----------------------------------------------
 =========================================================================*/
 
@@ -199,7 +231,8 @@ tr:hover
     margin-top: 200px;
     font-family: Lora;
     text-align: left;
-    background-color: grey;
+    background-image:url("images/image_parc4.jpg");
+    background-attachment: fixed;
 }
 .contact h1
 {
@@ -214,17 +247,12 @@ tr:hover
     margin-top:0;
 }
 #Titre
-{
-
-    
-    text-align: center;
-   
-   
+{    
+    text-align: center; 
 }
 .contact .panel
 {
     background-color:rgb(157,1,0);
-  
     font-family: Lora;
      color:white;
     border-radius:20px;
@@ -236,7 +264,8 @@ tr:hover
     border-radius:20px;
     text-align: justify;
     height:50px; 
-    background-color: grey;
+    background-color: white;
+    color:rgb(157,1,0);
    
 }
 
@@ -246,7 +275,9 @@ tr:hover
 }
 #valider
 {
-    background-color: grey;
+    background-color:transparent;
     border-radius:20px;
     padding:20px;
 }
+
+

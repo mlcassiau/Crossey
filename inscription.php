@@ -1,5 +1,5 @@
 
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf8" >
@@ -22,17 +22,17 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body class="inscription">
 
          <div class="modal-header">
              <button type="button" class="close" data-dismiss="modal">x</button>
 				<h4 class="modal-title">Formulaire d'inscription</h4>
          </div>
          <div class="modal-body well ">
-             <form method="post" action="#">
+             <form method="post" >
                  <label for nom>Votre Nom </label>
                 <input type="textarea" placeholder="votre nom" name='nom' id='nom'>
-                 <input class="col-xs-6 col-xs-offset-6" type="button" value="valider">
+                <button type="submit" class="btn btn-default">Valider</button>
                  
              </form>
          </div>

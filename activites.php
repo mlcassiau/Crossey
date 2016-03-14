@@ -1,8 +1,6 @@
-<?php
-include ( "entete_Cassiau.php");
-?>
 
-<!DOCTYPE>
+
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf8" >
@@ -10,8 +8,14 @@ include ( "entete_Cassiau.php");
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title name="Saint Etienne de Crossey: les actualités"></title>
        
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         <!-- Fonts-->
         <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
@@ -25,9 +29,12 @@ include ( "entete_Cassiau.php");
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
+    <?php
+include ( "entete_Cassiau.php");
+?>
     <body class="activites">
-        <div class="container">
-            <table class="table table-bordered  table-striped table-responsive " >
+        <div class="container table-responsive col-xs-10 col-xs-offset-1 ">
+            <table class="table table-bordered  table-striped table-hover " >
             <caption > <h1 >Les activités du mois</h1></caption>
                 <thead>
                     <tr>
